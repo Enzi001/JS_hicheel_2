@@ -1,0 +1,81 @@
+<!-- Үндсэн операторууд:
+Нэмэх (+): Утгуудыг нэмэхэд ашиглана.
+Хасах (-): Утгуудыг хасахад ашиглана.
+Үржих (*): Утгуудыг үржүүлэхэд ашиглана.
+Хуваах (/): Утгуудыг хуваахад ашиглана.
+Харьцуулах операторууд:
+Тэнцүү ==: Хоёр утгыг тэнцүү эсэхийг шалгана.
+10=="10"
+Адилгүй !=: Хоёр утга адилгүй эсэхийг шалгана.
+!false = true
+Чанартай тэнцүү ===: Хоёр утга болон төрлийг нь шалгана.
+10 === "10" true === true 15 === 15
+Чанартай адилгүй !==: Хоёр утга болон төрлийг нь адилгүй эсэхийг шалгана.
+!=true 
+Их ><: Их ба бага утгуудыг харьцуулна.
+Логик операторууд:
+AND (a>=18 && a>=14): Хоёр илэрхийлэл үнэн байх үед үнэн утга өгнө. 
+OR (a>18 || a>14): Хоёр илэрхийлэлээс нэг нь үнэн байх үед үнэн утга өгнө.
+NOT (!): Илэрхийлэл буруу байх үед үнэн утга өгнө.
+-->
+<!-- Өгөгдлийн төрлүүд
+1.) number = 25, 45 , 3.14
+ -->
+<!-- let a = 13, 85;
+ let age = 25;
+ let price = 19.99 -->
+<!-- 2.) string(Тэмдэгт мөр) -->
+<!-- let name = "john";
+ let surname = "doe"; -->
+<!-- 
+ 3.) boolean( Логик ) -->
+<!-- let isStudent = true;
+ let isLoggedIn = false; -->
+<!-- 4.) Undefined ( Тодорхойүй) -->
+<!-- let age; -->
+<!-- 5.) Object(Обьект)  -->
+<!-- let person = {
+    name: "john",
+    age: 30,
+    job: "administ",
+    isMarried: false,
+} -->
+<!-- 6.) null(Хоосон) -->
+<!-- let emptyValue = null
+7.) array(Массив)
+
+let fruits = ["apple","orange","banana","cherry"] -->
+<!-- let students = ["boldoo","baljaa"] -->
+
+<!-- if else -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a, b, c, d, f, e, g;
+      a = prompt("Дүнгээ оруулна уу");
+      c = 90;
+      b = 80;
+      d = 70;
+      f = 60;
+      e = 50;
+      g = 0;
+      if (a >= c || a == c) {
+        alert("A");
+      } else if ((c > a && a >= b) || a == b) {
+        alert("B");
+      } else if ((b > a && a >= d) || a == d) {
+        alert("C");
+      } else if ((d > a && a > f) || a == f) {
+        alert("D");
+      } else if (f > a && a > g) {
+        alert("F");
+      } else (a === g)[alert("Улирсаан")];
+    </script>
+  </body>
+</html>
